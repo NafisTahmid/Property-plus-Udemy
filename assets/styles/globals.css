@@ -1,0 +1,10 @@
+/* app/globals.css */
+@import "tailwindcss";
+
+@theme {
+  /* This creates the utility class 'font-sans' */
+  --font-sans: var(--font-poppins), sans-serif;
+
+  /* Or if you want a completely custom utility class name like 'font-brand' */
+  --font-brand: var(--font-inter), sans-serif;
+}
